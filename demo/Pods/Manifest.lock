@@ -1,0 +1,14 @@
+PODS:
+  - IRLDocumentScanner (0.1.1)
+
+DEPENDENCIES:
+  - IRLDocumentScanner (from `..`)
+
+EXTERNAL SOURCES:
+  IRLDocumentScanner:
+    :path: ..
+
+SPEC CHECKSUMS:
+  IRLDocumentScanner: 661578c30aa829105f5c8c8c520fc02bc8371d38
+
+COCOAPODS: 0.38.2

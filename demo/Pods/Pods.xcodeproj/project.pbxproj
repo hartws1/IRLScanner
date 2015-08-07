@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0092DABCD3716E63D76AD39174FAE42F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E44C6BD15452ED94E6782700E851E2D /* CoreImage.framework */; };
+		00FB93CACAF18A734606A953B6F4FE7B /* IRLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B68F8EDB6428530494C58B64AD83C /* IRLCameraView.m */; };
+		02F191540B9BE267237DEEAD9EB12852 /* IRLDocumentScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C799A9DF714891CD44723D40B56B3DA /* IRLDocumentScanner-dummy.m */; };
+		0306FE06114B2BD9E385593D5D626757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7329B18E1684B1C72B950D88F1139D /* Foundation.framework */; };
+		0FE9F8FC0AF27386A0845B9BF0A0FD2B /* IRLCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F43BEBFB4E1A64AB30D4394972F7505 /* IRLCameraView.h */; };
+		39DE5A236246415D2BCD3B56C1B63583 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F4D06BD52F0305AF01F73C0003047 /* GLKit.framework */; };
+		3E634A8E032D5B51C61B54AB02B22B85 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF7A82C4E4BA3E65535179B94636B46 /* Pods-dummy.m */; };
+		44A234C8D9CAAB64EE6FD0FD8B1B977A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F0AE6AFC1E32F7632CAD2439124A2 /* AVFoundation.framework */; };
+		7623B5FFF8BA77FEA5DF79E9427AB017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7329B18E1684B1C72B950D88F1139D /* Foundation.framework */; };
+		895CD96DDF75D4AEC29F7D5DE0580450 /* CIImage+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D12623B5F79ECB2C530CAE3967B49636 /* CIImage+Utilities.h */; };
+		8FE3E23A0682FE51193DD0EF967DE5F5 /* CIRectangleFeature+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8D1AF78AEAC0F279876C2601A1185 /* CIRectangleFeature+Utilities.m */; };
+		925C49B6E0627CEF82EFD4A41934C949 /* IRLDocumentScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A97A1922A136E187DD3B3A6C5640F8 /* IRLDocumentScanner.h */; };
+		CB21623BCCFA68698BD624354F0F2AED /* IRLScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805DB9D1A8A53D1E98377BC474F921B2 /* IRLScannerViewController.m */; };
+		CE407A7C2F13D6098E338BA3D7506E9A /* CIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E264840E9EE0814E0D311FFE0018F /* CIImage+Utilities.m */; };
+		EC36629D1B74FC17002EB693 /* IRLScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36629C1B74FC17002EB693 /* IRLScannerViewController.h */; };
+		F586868519830D44CF6956E6D7960A0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DDBA374A454697E67CD349FF47584B /* UIKit.framework */; };
+		F84519C807613122227514CAE6468AD9 /* CIRectangleFeature+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A7380026ED0F1E49A7C0230EA82613 /* CIRectangleFeature+Utilities.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8266DF82C48122D38E43094D6D2017C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0374B46E941272B22C11AF7CFD978B70;
+			remoteInfo = IRLDocumentScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF7A82C4E4BA3E65535179B94636B46 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0F6B68F8EDB6428530494C58B64AD83C /* IRLCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRLCameraView.m; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16CDD6651CBEFBF981774AAAE91184D2 /* IRLCamera.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = IRLCamera.storyboard; sourceTree = "<group>"; };
+		37A97A1922A136E187DD3B3A6C5640F8 /* IRLDocumentScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRLDocumentScanner.h; sourceTree = "<group>"; };
+		3C7329B18E1684B1C72B950D88F1139D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41F84D02D3BBE11DE57DCC160B467792 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4E78C1D3DD6CC2FFA0748B5FFEA1B905 /* IRLCameraMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = IRLCameraMedia.xcassets; sourceTree = "<group>"; };
+		582E264840E9EE0814E0D311FFE0018F /* CIImage+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Utilities.m"; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6A7B77F4DA83104CDC39C7B1705FBB94 /* IRLDocumentScanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IRLDocumentScanner-Private.xcconfig"; sourceTree = "<group>"; };
+		6C799A9DF714891CD44723D40B56B3DA /* IRLDocumentScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRLDocumentScanner-dummy.m"; sourceTree = "<group>"; };
+		805DB9D1A8A53D1E98377BC474F921B2 /* IRLScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRLScannerViewController.m; sourceTree = "<group>"; };
+		862F0AE6AFC1E32F7632CAD2439124A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		8E44C6BD15452ED94E6782700E851E2D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		8F43BEBFB4E1A64AB30D4394972F7505 /* IRLCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRLCameraView.h; sourceTree = "<group>"; };
+		93A7380026ED0F1E49A7C0230EA82613 /* CIRectangleFeature+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CIRectangleFeature+Utilities.h"; sourceTree = "<group>"; };
+		94DDBA374A454697E67CD349FF47584B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A35241445BA8E599740C94207DC9350E /* IRLDocumentScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRLDocumentScanner-prefix.pch"; sourceTree = "<group>"; };
+		A593C804D72AB1943E261D0367D7B85A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA5B31395C6597F170672C8CC647C9 /* libIRLDocumentScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIRLDocumentScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		D12623B5F79ECB2C530CAE3967B49636 /* CIImage+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CIImage+Utilities.h"; sourceTree = "<group>"; };
+		DD7E07958BAEDA2F2BAF53EEC4AD6D9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E20F4D06BD52F0305AF01F73C0003047 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC36629C1B74FC17002EB693 /* IRLScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRLScannerViewController.h; sourceTree = "<group>"; };
+		EF4934D625B9BF6218A318A030BFD0B6 /* IRLDocumentScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRLDocumentScanner.xcconfig; sourceTree = "<group>"; };
+		F8D8D1AF78AEAC0F279876C2601A1185 /* CIRectangleFeature+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CIRectangleFeature+Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA77E70109DAAE37A5423717151D2CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A234C8D9CAAB64EE6FD0FD8B1B977A /* AVFoundation.framework in Frameworks */,
+				0092DABCD3716E63D76AD39174FAE42F /* CoreImage.framework in Frameworks */,
+				7623B5FFF8BA77FEA5DF79E9427AB017 /* Foundation.framework in Frameworks */,
+				39DE5A236246415D2BCD3B56C1B63583 /* GLKit.framework in Frameworks */,
+				F586868519830D44CF6956E6D7960A0C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9658CE1A076CC8BFEC9B4846A4BA608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0306FE06114B2BD9E385593D5D626757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACD4399C0353E819F5A6E2E056097A2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C9115EBA73A4D25DE64D53D000BD8F7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				D12623B5F79ECB2C530CAE3967B49636 /* CIImage+Utilities.h */,
+				582E264840E9EE0814E0D311FFE0018F /* CIImage+Utilities.m */,
+				93A7380026ED0F1E49A7C0230EA82613 /* CIRectangleFeature+Utilities.h */,
+				F8D8D1AF78AEAC0F279876C2601A1185 /* CIRectangleFeature+Utilities.m */,
+				8F43BEBFB4E1A64AB30D4394972F7505 /* IRLCameraView.h */,
+				0F6B68F8EDB6428530494C58B64AD83C /* IRLCameraView.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		6970CE6CE99412C1DB1229B302D2B05C /* IRLDocumentScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8AD820FAD223AE86982E7015C7ED4BE6 /* Resources */,
+				DAB086F1FED1C670FBBFB9D81042AD90 /* Source */,
+				7A0AC1AE1AF271D072F071FD34485B3B /* Support Files */,
+			);
+			name = IRLDocumentScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A0AC1AE1AF271D072F071FD34485B3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4934D625B9BF6218A318A030BFD0B6 /* IRLDocumentScanner.xcconfig */,
+				6A7B77F4DA83104CDC39C7B1705FBB94 /* IRLDocumentScanner-Private.xcconfig */,
+				6C799A9DF714891CD44723D40B56B3DA /* IRLDocumentScanner-dummy.m */,
+				A35241445BA8E599740C94207DC9350E /* IRLDocumentScanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/IRLDocumentScanner";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F5A69002E6CD9227ABA6D3F39FFC5838 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACD4399C0353E819F5A6E2E056097A2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				862F0AE6AFC1E32F7632CAD2439124A2 /* AVFoundation.framework */,
+				8E44C6BD15452ED94E6782700E851E2D /* CoreImage.framework */,
+				3C7329B18E1684B1C72B950D88F1139D /* Foundation.framework */,
+				E20F4D06BD52F0305AF01F73C0003047 /* GLKit.framework */,
+				94DDBA374A454697E67CD349FF47584B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8AD820FAD223AE86982E7015C7ED4BE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16CDD6651CBEFBF981774AAAE91184D2 /* IRLCamera.storyboard */,
+				4E78C1D3DD6CC2FFA0748B5FFEA1B905 /* IRLCameraMedia.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				0CF7A82C4E4BA3E65535179B94636B46 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				DD7E07958BAEDA2F2BAF53EEC4AD6D9B /* Pods.debug.xcconfig */,
+				41F84D02D3BBE11DE57DCC160B467792 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA5B31395C6597F170672C8CC647C9 /* libIRLDocumentScanner.a */,
+				A593C804D72AB1943E261D0367D7B85A /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DAB086F1FED1C670FBBFB9D81042AD90 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				37A97A1922A136E187DD3B3A6C5640F8 /* IRLDocumentScanner.h */,
+				3C9115EBA73A4D25DE64D53D000BD8F7 /* Private */,
+				F3A4F3E71E7EACD6A8ADAD490BD968E2 /* Public */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F3A4F3E71E7EACD6A8ADAD490BD968E2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				EC36629C1B74FC17002EB693 /* IRLScannerViewController.h */,
+				805DB9D1A8A53D1E98377BC474F921B2 /* IRLScannerViewController.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F5A69002E6CD9227ABA6D3F39FFC5838 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6970CE6CE99412C1DB1229B302D2B05C /* IRLDocumentScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55D416A7CE068A3FF9FB3E1AEF69FA61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895CD96DDF75D4AEC29F7D5DE0580450 /* CIImage+Utilities.h in Headers */,
+				EC36629D1B74FC17002EB693 /* IRLScannerViewController.h in Headers */,
+				F84519C807613122227514CAE6468AD9 /* CIRectangleFeature+Utilities.h in Headers */,
+				0FE9F8FC0AF27386A0845B9BF0A0FD2B /* IRLCameraView.h in Headers */,
+				925C49B6E0627CEF82EFD4A41934C949 /* IRLDocumentScanner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0374B46E941272B22C11AF7CFD978B70 /* IRLDocumentScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2A633D01DFA7249AF9BE7EFD185596 /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */;
+			buildPhases = (
+				2D1E9886812D31DF8C8E6B7C8E497BF1 /* Sources */,
+				AA77E70109DAAE37A5423717151D2CC5 /* Frameworks */,
+				55D416A7CE068A3FF9FB3E1AEF69FA61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRLDocumentScanner;
+			productName = IRLDocumentScanner;
+			productReference = B1FA5B31395C6597F170672C8CC647C9 /* libIRLDocumentScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D1ACA7070964F00D721FCBC873B762A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6E4AEA1594100E3BBBC1BC6A321827 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				DBBE291003743ABDDAADC7313637B6ED /* Sources */,
+				E9658CE1A076CC8BFEC9B4846A4BA608 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC507336DEC8F7D972C847640DEE173 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A593C804D72AB1943E261D0367D7B85A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0374B46E941272B22C11AF7CFD978B70 /* IRLDocumentScanner */,
+				5D1ACA7070964F00D721FCBC873B762A /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1E9886812D31DF8C8E6B7C8E497BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE407A7C2F13D6098E338BA3D7506E9A /* CIImage+Utilities.m in Sources */,
+				8FE3E23A0682FE51193DD0EF967DE5F5 /* CIRectangleFeature+Utilities.m in Sources */,
+				00FB93CACAF18A734606A953B6F4FE7B /* IRLCameraView.m in Sources */,
+				02F191540B9BE267237DEEAD9EB12852 /* IRLDocumentScanner-dummy.m in Sources */,
+				CB21623BCCFA68698BD624354F0F2AED /* IRLScannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBE291003743ABDDAADC7313637B6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E634A8E032D5B51C61B54AB02B22B85 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC507336DEC8F7D972C847640DEE173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRLDocumentScanner;
+			target = 0374B46E941272B22C11AF7CFD978B70 /* IRLDocumentScanner */;
+			targetProxy = A8266DF82C48122D38E43094D6D2017C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EC8AB57F462ED3D33A477BE263DE2B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7B77F4DA83104CDC39C7B1705FBB94 /* IRLDocumentScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B31BBE3DC8920525BBBD6031F259FA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7B77F4DA83104CDC39C7B1705FBB94 /* IRLDocumentScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C8A60AC90E023F72BDE97EF6123E6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7E07958BAEDA2F2BAF53EEC4AD6D9B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFF817ADCF254A3BD2B5A304DC337625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F84D02D3BBE11DE57DCC160B467792 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6E4AEA1594100E3BBBC1BC6A321827 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A60AC90E023F72BDE97EF6123E6104 /* Debug */,
+				DFF817ADCF254A3BD2B5A304DC337625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2A633D01DFA7249AF9BE7EFD185596 /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31BBE3DC8920525BBBD6031F259FA4C /* Debug */,
+				1EC8AB57F462ED3D33A477BE263DE2B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
